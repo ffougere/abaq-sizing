@@ -67,25 +67,6 @@ Stratégies de sécurité et de conformité très robustes avec une surveillance
 Implémentation de solutions de sécurité avancées telles que la microsegmentation et la sécurité zero trust.
 Tableau récapitulatif :
 
-Service	100 utilisateurs	1000 utilisateurs	10000 utilisateurs	1 million d'utilisateurs
-Security Center	✅	✅	✅	✅
-Sentinel		✅	✅	✅
-Key Vault	✅	✅	✅	✅
-Azure Policy	✅	✅	✅	✅
-VNet	✅	✅	✅	✅
-NSG	✅	✅	✅	✅
-Azure Firewall	(Optionnel)	✅	✅	✅
-WAF		✅	✅	✅
-DDoS Protection	(Optionnel)	(Recommandé)	✅	✅
-Virtual WAN		(Optionnel)	✅	✅
-VPN Gateway	✅	✅	✅	✅
-Azure AD	✅	✅	✅	✅
-Azure AD B2C/B2B		(Optionnel)	✅	✅
-MFA	✅	✅	✅	✅
-Accès conditionnel		✅	✅	✅
-Identity Protection		✅	✅	✅
-ExpressRoute			(Optionnel)	✅
-
 | Service                | 100 utilisateurs | 1000 utilisateurs | 10000 utilisateurs | 1 million d'utilisateurs |
 |------------------------|------------------|-------------------|--------------------|--------------------------|
 | Security Center        | ✅               | ✅                | ✅                 | ✅                       |
