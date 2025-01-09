@@ -86,5 +86,25 @@ Accès conditionnel		✅	✅	✅
 Identity Protection		✅	✅	✅
 ExpressRoute			(Optionnel)	✅
 
+| Service                | 100 utilisateurs | 1000 utilisateurs | 10000 utilisateurs | 1 million d'utilisateurs |
+|------------------------|------------------|-------------------|--------------------|--------------------------|
+| Security Center        | ✅               | ✅                | ✅                 | ✅                       |
+| Sentinel               |                  | ✅                | ✅                 | ✅                       |
+| Key Vault              | ✅               | ✅                | ✅                 | ✅                       |
+| Azure Policy           | ✅               | ✅                | ✅                 | ✅                       |
+| VNet                   | ✅               | ✅                | ✅                 | ✅                       |
+| NSG                    | ✅               | ✅                | ✅                 | ✅                       |
+| Azure Firewall         | (Optionnel)      | ✅                | ✅                 | ✅                       |
+| WAF                    |                  | ✅                | ✅                 | ✅                       |
+| DDoS Protection        | (Optionnel)      | (Recommandé)      | ✅                 | ✅                       |
+| Virtual WAN            |                  | (Optionnel)       | ✅                 | ✅                       |
+| VPN Gateway            | ✅               | ✅                | ✅                 | ✅                       |
+| Azure AD               | ✅               | ✅                | ✅                 | ✅                       |
+| Azure AD B2C/B2B       |                  | (Optionnel)       | ✅                 | ✅                       |
+| MFA                    | ✅               | ✅                | ✅                 | ✅                       |
+| Accès conditionnel     |                  | ✅                | ✅                 | ✅                       |
+| Identity Protection    |                  | ✅                | ✅                 | ✅                       |
+| ExpressRoute           |                  |                   | (Optionnel)        | ✅                       |
+
 Exporter vers Sheets
 Ce tableau et ces explications fournissent une base solide pour la conception de votre infrastructure de sécurité et de réseau sur Azure. N'oubliez pas que chaque déploiement est unique et nécessite une adaptation en fonction des besoins spécifiques. Il est fortement recommandé de consulter la documentation Azure et de faire appel à des experts pour les déploiements complexes.
